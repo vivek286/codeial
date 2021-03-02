@@ -1,0 +1,18 @@
+header{
+    height: 25px;
+    background-color: red;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    div{
+        display: flex;
+    }
+    .converting_flex{
+        display: flex;
+        justify-content: left;
+        li{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

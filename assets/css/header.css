@@ -1,0 +1,14 @@
+header {
+  height: 25px;
+  background-color: red;
+  font-size: 21px;
+  font-weight: 700;
+  color: white; }
+  header div {
+    display: flex; }
+  header .converting_flex {
+    display: flex;
+    justify-content: left; }
+    header .converting_flex li {
+      display: flex;
+      justify-content: space-between; }
