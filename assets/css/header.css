@@ -1,14 +1,14 @@
 header {
-  height: 25px;
-  background-color: red;
-  font-size: 21px;
+  background-color: white;
+  font-size: 24px;
   font-weight: 700;
-  color: white; }
+  color: black;
+  margin: 0px; }
   header div {
-    display: flex; }
-  header .converting_flex {
-    display: flex;
-    justify-content: left; }
-    header .converting_flex li {
-      display: flex;
-      justify-content: space-between; }
+    display: inline-block;
+    justify-content: space-between;
+    text-align: left; }
+    header div ul li {
+      display: inline-block; }
+      header div ul li a {
+        text-decoration: none; }

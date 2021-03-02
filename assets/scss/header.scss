@@ -1,18 +1,22 @@
 header{
-    height: 25px;
-    background-color: red;
-    font-size: 21px;
-    font-weight: 700;
-    color: white;
+    background-color: white;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  margin: 0px;
+  
     div{
-        display: flex;
-    }
-    .converting_flex{
-        display: flex;
-        justify-content: left;
-        li{
-            display: flex;
-            justify-content: space-between;
+        display: inline-block;
+        justify-content: space-between;
+        text-align: left;
+        ul{
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                }
+            }
         }
     }
+    
 }

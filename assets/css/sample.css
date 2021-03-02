@@ -1,0 +1,45 @@
+header{
+    background-color: white;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+  }
+  header div{
+    display: inline-block;
+    /* justify-content: space-between; */
+  }
+  header div div{
+    display: flex;
+    margin-left: 9px;
+  }
+  header div ul li a{
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+
+
+  header{
+    background-color: white;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  margin: 0px;
+    div{
+        display: inline-block;
+        justify-content: space-between;
+        ul li{
+            margin-left: 10px;
+            a{
+                text-decoration: none;
+                color: blue;
+            }
+        }
+        div{
+            display: flex;
+            margin-left: 9px;
+            justify-content: right;
+        }
+    }
+    
+}
