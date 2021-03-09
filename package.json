@@ -10,7 +10,7 @@
   "keywords": [
     "social"
   ],
-  "author": "Vivek Solanki",
+  "author": "CodingNinjas",
   "license": "ISC",
   "dependencies": {
     "connect-flash": "^0.1.1",
@@ -20,19 +20,12 @@
     "express": "^4.16.4",
     "express-ejs-layouts": "^2.5.0",
     "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.4.6",
     "multer": "^1.4.1",
     "node-sass-middleware": "^0.11.0",
     "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vivek286/codeial.git"
-  },
-  "bugs": {
-    "url": "https://github.com/vivek286/codeial/issues"
-  },
-  "homepage": "https://github.com/vivek286/codeial#readme"
+  }
 }
