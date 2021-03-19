@@ -10,7 +10,7 @@ let transporter = nodemailer.createTransport({
     secure: false,
     auth: {
         user: 'alchemy.cn18',
-        pass: 'Viveksolanki'
+        pass: 'codingninjas'
     }
 });
 
@@ -21,7 +21,7 @@ let renderTemplate = (data, relativePath) => {
         path.join(__dirname, '../views/mailers', relativePath),
         data,
         function(err, template){
-         if (err){console.log('error in rendering template',err); return;}
+         if (err){console.log('error in rendering template', err); return}
          
          mailHTML = template;
         }
